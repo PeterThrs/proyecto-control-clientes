@@ -5,7 +5,9 @@
     "outDir": "./out-tsc/app",
     "types": [
       "node"
-    ]
+    ],
+    "skipDefaultLibCheck": true,    
+      "skipLibCheck": true
   },
   "files": [
     "src/main.ts",
